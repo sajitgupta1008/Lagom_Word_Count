@@ -1,0 +1,10 @@
+wordImpl/WordCountServiceImpl.class
+wordImpl/WordCommand$SetWord.class
+wordImpl/WordLoader.class
+wordImpl/WordReadSideProcessor.class
+wordImpl/WordCommand.class
+wordImpl/WordState.class
+wordImpl/WordEvent.class
+wordImpl/WordEntity.class
+wordImpl/WordCommand$GetCount.class
+wordImpl/WordEvent$WordCountChanged.class

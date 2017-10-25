@@ -1,0 +1,1 @@
+[2017-10-16 13:43:47,038] TRACE Controller 0 epoch 1 received response {error_code=0} for a request sent to broker knoldus-Vostro-1550:9092 (id: 0 rack: null) (state.change.logger)

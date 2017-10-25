@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="word-consumer-api" />
+        <module name="word-consumer-impl" />
+        <module name="word-count" />
+        <module name="word-count-impl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="word-consumer-api" target="1.8" />
+      <module name="word-consumer-impl" target="1.8" />
+      <module name="word-count" target="1.8" />
+      <module name="word-count-impl" target="1.8" />
+      <module name="Wordcountlagom" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

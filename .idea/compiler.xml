@@ -20,4 +20,13 @@
       <module name="Wordcountlagom" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Wordcountlagom" options="" />
+      <module name="word-consumer-api" options="-parameters" />
+      <module name="word-consumer-impl" options="-parameters" />
+      <module name="word-count" options="-parameters" />
+      <module name="word-count-impl" options="-parameters" />
+    </option>
+  </component>
 </project>

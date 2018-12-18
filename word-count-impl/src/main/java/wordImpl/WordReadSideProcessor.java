@@ -14,8 +14,11 @@ import org.pcollections.PSequence;
 import org.pcollections.TreePVector;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletionStage;
+
+import static java.util.Collections.singletonList;
 
 public class WordReadSideProcessor extends ReadSideProcessor<WordEvent> {
 
@@ -42,7 +45,7 @@ public class WordReadSideProcessor extends ReadSideProcessor<WordEvent> {
     private CompletionStage<List<BoundStatement>> handleEvent(WordEvent.WordCountChanged evt) {
         BoundStatement boundStatement = prepareWrite.bind();
         boundStatement.setString("word", evt.word);
-        return CassandraReadSide.completedStatements(Arrays.asList(boundStatement));
+        return CassandraReadSide.completedStatements(singletonList(boundStatement));
     }
 
 

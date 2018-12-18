@@ -1,2 +1,4 @@
-consumer/impl/WordConsumerServiceImpl.class
+consumer/impl/Word.class
 consumer/impl/WordConsumerLoader.class
+consumer/impl/WordConsumerService.class
+consumer/impl/Consumer.class
